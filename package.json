@@ -28,5 +28,5 @@
   "packageManager": "pnpm@7.5.0",
   "publishConfig": {
     "@darrenbutcher:registry": "https://npm.pkg.github.com"
-  },
+  }
 }
