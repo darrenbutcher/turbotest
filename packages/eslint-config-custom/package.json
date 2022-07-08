@@ -9,6 +9,6 @@
     "eslint-plugin-react": "7.28.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   }
 }

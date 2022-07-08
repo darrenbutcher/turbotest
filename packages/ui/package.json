@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@darrenbutcher/ui",
   "version": "0.0.2",
   "main": "./index.tsx",
   "types": "./index.tsx",
