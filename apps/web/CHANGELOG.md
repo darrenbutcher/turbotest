@@ -1,5 +1,11 @@
 # web
 
+## 0.3.0
+
+### Minor Changes
+
+- cf6a57b: Update a heading
+
 ## 0.2.0
 
 ### Minor Changes
