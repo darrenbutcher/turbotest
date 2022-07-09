@@ -36,6 +36,7 @@ on:
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
+  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   version:
     timeout-minutes: 15
