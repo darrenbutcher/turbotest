@@ -2,6 +2,10 @@
   "name": "@darrenbutcher/turbotest-web",
   "version": "0.4.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrenbutcher/turbotest.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
