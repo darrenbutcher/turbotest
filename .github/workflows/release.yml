@@ -40,6 +40,9 @@ jobs:
   version:
     timeout-minutes: 15
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       - name: checkout code repository
         uses: actions/checkout@v2
