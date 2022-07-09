@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@darrenbutcher/turbotest-web",
   "version": "0.3.0",
   "private": true,
   "scripts": {
