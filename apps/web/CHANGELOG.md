@@ -1,5 +1,11 @@
 # web
 
+## 0.4.0
+
+### Minor Changes
+
+- 5eaa6b9: Some change here
+
 ## 0.3.0
 
 ### Minor Changes
