@@ -37,6 +37,7 @@ env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   version:
     timeout-minutes: 15
@@ -44,7 +45,6 @@ jobs:
     permissions:
       packages: write
       contents: read
-      repository-projects: write
     steps:
       - name: checkout code repository
         uses: actions/checkout@v2
