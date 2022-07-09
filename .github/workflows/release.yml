@@ -44,6 +44,7 @@ jobs:
     permissions:
       packages: write
       contents: read
+      repository-projects: write
     steps:
       - name: checkout code repository
         uses: actions/checkout@v2
