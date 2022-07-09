@@ -1,5 +1,11 @@
 # web
 
+## 0.5.0
+
+### Minor Changes
+
+- bc1829c: Bump up to new verion
+
 ## 0.4.0
 
 ### Minor Changes
