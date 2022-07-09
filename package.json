@@ -6,7 +6,10 @@
     "apps/*",
     "packages/*"
   ],
-  "repository": "git://github.com/darrenbutcher/turbotest.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrenbutcher/turbotest.git"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",

@@ -7,6 +7,10 @@
   "scripts": {
     "lint": "eslint *.ts*"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrenbutcher/turbotest.git"
+  },
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
