@@ -7,9 +7,6 @@
   "scripts": {
     "lint": "eslint *.ts*"
   },
-  "publishConfig": {
-    "@darrenbutcher:registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
