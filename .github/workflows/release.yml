@@ -63,6 +63,8 @@ jobs:
       - name: create and publish versions
         uses: changesets/action@v1
         with:
+          registry-url: https://npm.pkg.github.com/
+          scope: "@darrenbutcher"
           version: pnpm ci:version
           commit: "chore: update versions"
           title: "chore: update versions"
