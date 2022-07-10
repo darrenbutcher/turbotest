@@ -117,7 +117,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.2.2
-        with:
+        CI: truewith:
           version: 7
       - uses: actions/setup-node@v2   
         with:
@@ -127,11 +127,11 @@ jobs:
           scope: "@darrenbutcher"
       - name: create and publish versions
         uses: changesets/action@v1
-          with:
-            version: pnpm version
-            commit: "chore: update versions"
-            title: "chore: update versions"
-            publish: pnpm publish
+        with:
+          version: pnpm version
+          commit: "chore: update versions"
+          title: "chore: update versions"
+          publish: pnpm publish
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
