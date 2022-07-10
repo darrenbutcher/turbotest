@@ -125,6 +125,7 @@ jobs:
           cache: 'pnpm'
           registry-url: https://npm.pkg.github.com/
           scope: "@darrenbutcher"
+      - run: pnpm install
       - name: create and publish versions
         uses: changesets/action@v1
         with:
