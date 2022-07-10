@@ -117,9 +117,7 @@ jobs:
     strategy:
       matrix:
         node-version: [15]
-    permissions:
-      packages: write
-      contents: read
+    permissions: write-all
     steps:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.2.2
