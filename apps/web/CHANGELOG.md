@@ -1,5 +1,11 @@
 # web
 
+## 0.8.0
+
+### Minor Changes
+
+- a46f8df: Change the heading for the web app
+
 ## 0.7.0
 
 ### Minor Changes
