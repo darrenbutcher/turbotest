@@ -17,6 +17,8 @@ importers:
 
   apps/docs:
     specifiers:
+      '@darrenbutcher/turbotest-tsconfig': workspace:*
+      '@darrenbutcher/ui': workspace:*
       '@types/node': ^17.0.12
       '@types/react': 17.0.37
       eslint: 7.32.0
@@ -25,25 +27,25 @@ importers:
       next-transpile-modules: 9.0.0
       react: 17.0.2
       react-dom: 17.0.2
-      tsconfig: workspace:*
       typescript: ^4.5.3
-      ui: workspace:*
     dependencies:
+      '@darrenbutcher/ui': link:../../packages/ui
       next: 12.0.8_apvyc6hsquzbx56wwdowrbgkzm
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      ui: link:../../packages/ui
     devDependencies:
+      '@darrenbutcher/turbotest-tsconfig': link:../../packages/tsconfig
       '@types/node': 17.0.45
       '@types/react': 17.0.37
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
       next-transpile-modules: 9.0.0
-      tsconfig: link:../../packages/tsconfig
       typescript: 4.7.4
 
   apps/web:
     specifiers:
+      '@darrenbutcher/turbotest-tsconfig': workspace:*
+      '@darrenbutcher/ui': workspace:*
       '@types/node': ^17.0.12
       '@types/react': 17.0.37
       eslint: 7.32.0
@@ -52,21 +54,19 @@ importers:
       next-transpile-modules: 9.0.0
       react: 17.0.2
       react-dom: 17.0.2
-      tsconfig: workspace:*
       typescript: ^4.5.3
-      ui: workspace:*
     dependencies:
+      '@darrenbutcher/ui': link:../../packages/ui
       next: 12.0.8_apvyc6hsquzbx56wwdowrbgkzm
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      ui: link:../../packages/ui
     devDependencies:
+      '@darrenbutcher/turbotest-tsconfig': link:../../packages/tsconfig
       '@types/node': 17.0.45
       '@types/react': 17.0.37
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
       next-transpile-modules: 9.0.0
-      tsconfig: link:../../packages/tsconfig
       typescript: 4.7.4
 
   packages/eslint-config-custom:
@@ -84,20 +84,20 @@ importers:
 
   packages/ui:
     specifiers:
+      '@darrenbutcher/turbotest-tsconfig': workspace:*
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
       react: ^17.0.2
-      tsconfig: workspace:*
       typescript: ^4.5.2
     devDependencies:
+      '@darrenbutcher/turbotest-tsconfig': link:../tsconfig
       '@types/react': 17.0.47
       '@types/react-dom': 17.0.17
       eslint: 7.32.0
       eslint-config-custom: link:../eslint-config-custom
       react: 17.0.2
-      tsconfig: link:../tsconfig
       typescript: 4.7.4
 
 packages:
