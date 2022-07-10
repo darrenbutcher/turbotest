@@ -113,6 +113,9 @@ env:
 jobs:
   version:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15]
     permissions:
       packages: write
       contents: read
