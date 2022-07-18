@@ -1,5 +1,11 @@
 # web
 
+## 0.10.0
+
+### Minor Changes
+
+- 4615bc6: Bump to v0.10.0
+
 ## 0.9.0
 
 ### Minor Changes
